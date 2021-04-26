@@ -1,0 +1,56 @@
+.statusJokes {
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.pending {
+    border: 2px solid cadetblue;
+    border-radius: 9px;
+    background: yellow;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.success {
+    border: 2px solid cadetblue;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background: green;
+    width: 200px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.success:hover {
+    border: 2px solid midnightblue;
+}
+
+
+
+
+
+
+.statusJokesN {
+    position: absolute;
+    top: 214px;
+    left: 203px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+
+.successN {
+    border: 2px solid cadetblue;
+    border-radius: 9px;
+    background: green;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+

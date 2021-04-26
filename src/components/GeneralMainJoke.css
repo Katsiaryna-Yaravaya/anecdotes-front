@@ -1,0 +1,39 @@
+body{
+    background: aliceblue;
+}
+
+.joke {
+    width: min-content;
+    display: flex;
+    margin: 4% auto;
+}
+
+.jokeButton {
+    font-size: 30px;
+    color: darkolivegreen;
+    border: 5px solid darkcyan;
+    border-radius: 20px;
+    outline: none;
+    background: beige;
+    padding: 10px;
+    margin-left: 32px;
+}
+
+.jokeButton:hover {
+    background: linear-gradient(
+            45deg, darkcyan, transparent);
+}
+
+.displayJokes {
+    position: absolute;
+    width: 600px;
+    left: 25%;
+    top: 10%;
+}
+
+.displayJokesItem {
+    margin-bottom: 11px;
+    border-bottom: 1px solid darkcyan;
+    font-size: 18px;
+    color: darkolivegreen;
+}
